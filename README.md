@@ -42,7 +42,7 @@ This set of files pertains to the implementation of Enwar 1.0 which is within a 
 
 
 ## Citation
-To cite Enwar, please add the following citation below, or add the latest citation from [IEEE Xplore](http://www.google.com)
+To cite Enwar, please add the following citation below, or add the latest citation from [IEEE Xplore](https://arxiv.org/abs/2410.18104)
 
 ```
 @misc{nazar2024enwarragempoweredmultimodalllm,
