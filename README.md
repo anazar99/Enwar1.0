@@ -3,6 +3,12 @@
     <img src="EnwarLogo.png" alt="Enwar Logo"/>
 </p>
 
+## Enwar's Flow
+
+<p align="center">
+    <img src="EnwarFlow.png" alt="Enwar workflows: multi-modal RAG formation (Steps A-C); and  prompt interpretation, knowledge retrieval, and response generation (Steps 1-5)."/>
+</p>
+
 ## Overview
 Enwar is an LLM framework that processes multi-modal inputs, transforms them into textual representations, and in parallel pipelines that data to a set of machine learning models to complete specific tasks. Within this scope, the data inputs are pushed to a perception agent and beam prediction agent.
 
