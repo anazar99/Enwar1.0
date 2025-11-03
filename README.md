@@ -1,4 +1,4 @@
-# Enwar1.0
+# ENWAR: A RAG-empowered Multi-Modal LLM Framework for Wireless Environment Perception
 <p align="center">
     <img src="EnwarLogo.png" alt="Enwar Logo"/>
 </p>
@@ -21,16 +21,19 @@ This set of files pertains to the implementation of Enwar 1.0 which is within a 
 
 * ```generate_prompt.py```: contains Enwar 1.0's prompt generation helper. The prompt generation code is used to feed to an LLM to get ground truth explanations, which will be edited and reviewed by human-in-the-loop, and then appended to teh final dataset to be using in the **environment-sensing-dataset** directory.
 
-* ```main.py```: contains the main code which implements Enwar 1.0
+* ```main.py```: contains the main code which implements Enwar 1.0.
 
-* ```RAG.py```: contains helper functions for retrieval-augmented generation
+* ```RAG.py```: contains helper functions for retrieval-augmented generation.
+
+* ```requirements.txt```: contains some of the main install dependencies, other installs may be required depending on updates to the used Python frameworks such as LangChain and HuggingFace-Hub. 
 
 * ```util.py```: contains various helpers for miscallaneous tasks such as distance estimation and file loading.
 
 * **environment-sensing-dataset**: contains samples of perceived data in textual description for various samples
 * **evaluate:**
     * ```evaluator.ipynb```: evaluates various LLMs with ground truth Q\&A samples in the files, but uses RAGAS which requires an OpenAI key
-* **LiDAR-Detection**: contains the setup for pretrained SFA-3D, follow the directions on [SFA-3D GitHub](https://github.com/maudzung/SFA3D/tree/master) for the setup
+* **LiDAR-Detection**: contains the setup for pretrained SFA-3D, follow the directions on [SFA-3D GitHub](https://github.com/maudzung/SFA3D/tree/master) for the setup and tailoring to your dataset.
+
 
 ## Citation
 To cite Enwar, please add the following citation below, or add the latest citation from [IEEE Xplore](http://www.google.com)

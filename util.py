@@ -7,6 +7,7 @@ import pandas as pd
 from tqdm import tqdm
 from natsort import natsorted
 
+# Change to your device
 device = torch.device("mps") if torch.backends.mps.is_available() else torch.device("cpu")
 
 

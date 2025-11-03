@@ -1,0 +1,16 @@
+ollama
+langchain
+langchain-huggingface
+langchain-openai
+huggingface-hub
+langchain-community
+faiss-cpu
+ragas
+opencv-python
+open3d
+openai
+torch
+numpy
+natsort
+tqdm
+pandas
