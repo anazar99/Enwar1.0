@@ -1,7 +1,7 @@
 # Enwar1.0
-<div style="text-align: center;">
-![Enwar Logo](EnwarLogo.png)
-</div>
+<p align="center">
+    <img src="EnwarLogo.png" alt="Enwar Logo"/>
+</p>
 
 ## Overview
 Enwar is an LLM framework that processes multi-modal inputs, transforms them into textual representations, and in parallel pipelines that data to a set of machine learning models to complete specific tasks. Within this scope, the data inputs are pushed to a perception agent and beam prediction agent.
