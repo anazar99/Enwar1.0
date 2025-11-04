@@ -45,14 +45,12 @@ This set of files pertains to the implementation of Enwar 1.0 which is within a 
 To cite Enwar, please add the following citation below, or add the latest citation from [IEEE Xplore](https://arxiv.org/abs/2410.18104)
 
 ```
-@misc{nazar2024enwarragempoweredmultimodalllm,
-      title={ENWAR: A RAG-empowered Multi-Modal LLM Framework for Wireless Environment Perception}, 
-      author={Ahmad M. Nazar and Abdulkadir Celik and Mohamed Y. Selim and Asmaa Abdallah and Daji Qiao and Ahmed M. Eltawil},
-      year={2024},
-      eprint={2410.18104},
-      archivePrefix={arXiv},
-      primaryClass={cs.NI},
-      url={https://arxiv.org/abs/2410.18104}, 
+@article{nazar2024enwar,
+  title={{ENWAR}: A {RAG}-empowered Multi-Modal {LLM} Framework for Wireless Environment Perception},
+  author={Nazar, Ahmad M and Celik, Abdulkadir and Selim, Mohamed Y and Abdallah, Asmaa and Qiao, Daji and Eltawil, Ahmed M},
+  journal={IEEE Commun Mag.},
+  year={2025 [in press]},
+url={https://arxiv.org/abs/2410.18104}
 }
 ```
 
